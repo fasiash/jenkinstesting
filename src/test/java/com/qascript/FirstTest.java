@@ -1,10 +1,10 @@
 package com.qascript;
 
-import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class FirstTest {
 
@@ -19,7 +19,7 @@ public class FirstTest {
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
-        Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
+        Assert.assertEquals("Page title is not correct",driver.getTitle().equals("Google"));
     }
 
 
