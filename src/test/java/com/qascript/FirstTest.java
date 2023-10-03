@@ -12,8 +12,8 @@ public class FirstTest {
 
     @Test
     public void OpenBrowser()  {
-       	RemoteWebDriver driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+       	WebDriver driver;
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
         options.addArguments("disable-gpu");

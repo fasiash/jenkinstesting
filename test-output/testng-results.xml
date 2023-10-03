@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-01T10:46:34 IST" name="Default suite" finished-at="2023-10-01T10:46:34 IST" duration-ms="163">
+  <suite started-at="2023-10-03T13:30:08 IST" name="Suite" finished-at="2023-10-03T13:30:08 IST" duration-ms="172">
     <groups>
     </groups>
-    <test started-at="2023-10-01T10:46:34 IST" name="Default test" finished-at="2023-10-01T10:46:34 IST" duration-ms="163">
+    <test started-at="2023-10-03T13:30:08 IST" name="Test" finished-at="2023-10-03T13:30:08 IST" duration-ms="172">
       <class name="com.qascript.FirstTest">
-        <test-method signature="OpenBrowser()[pri:0, instance:com.qascript.FirstTest@c730b35]" started-at="2023-10-01T10:46:34 IST" name="OpenBrowser" finished-at="2023-10-01T10:46:34 IST" duration-ms="100" status="FAIL">
+        <test-method signature="OpenBrowser()[pri:0, instance:com.qascript.FirstTest@6150c3ec]" started-at="2023-10-03T13:30:08 IST" name="OpenBrowser" finished-at="2023-10-03T13:30:08 IST" duration-ms="119" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[The driver executable must exist: C:\usr\bin\chromedriver]]>
+              <![CDATA[The driver executable must exist: C:\usr\bin\google-chrome]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\usr\bin\chromedriver
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: C:\usr\bin\google-chrome
 at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
 at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
 at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
-at com.qascript.FirstTest.OpenBrowser(FirstTest.java:19)
+at com.qascript.FirstTest.OpenBrowser(FirstTest.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,6 +56,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
       </class> <!-- com.qascript.FirstTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
