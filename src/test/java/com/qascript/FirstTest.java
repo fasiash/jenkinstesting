@@ -15,6 +15,7 @@ public class FirstTest {
        	WebDriver driver;
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
+        options.setBrowserVersion("117.0.5938.92");
         options.addArguments("headless");
         options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
